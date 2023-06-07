@@ -1,0 +1,51 @@
+.splash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 500px;
+    margin-top: 100px;
+    background-color: #009688;
+}
+
+.splash h2 {
+    width: 90%;
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    color: #B2DFDB;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+.splash__img {
+    width: 90%;
+    max-width: 500px;
+}
+
+.splash__img img {
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .splash {
+        flex-direction: row;
+    }
+
+    .splash h2 {
+        font-size: 70px;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .splash {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .splash h2 {
+        font-size: 80px;
+    }
+}

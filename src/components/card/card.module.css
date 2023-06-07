@@ -1,0 +1,121 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    max-width: 550px;
+    height: 330px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #757575;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+}
+
+.card h3 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+}
+
+.card p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 90%;
+    max-width: 500px;
+    height: 250px;
+    background-color: #536DFE;
+    border-radius: 0 50% 50% 0;
+}
+
+.card2 h3 {
+    margin: 10px;
+    padding: 5px;
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 35px;
+}
+
+.card2 p {
+    width: 80%;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-bottom: 30px;
+    width: 90%;
+    max-width: 500px;
+    height: 250px;
+    background-color: #536DFE;
+    border-radius: 50% 0 0 50%;
+}
+
+.card3 h3 {
+    margin: 10px;
+    padding: 5px;
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 35px;
+}
+
+.card3 p {
+    width: 80%;
+    text-align: center;
+    font-size: 15px;
+    color: #fff
+}
+
+@media screen and (min-width: 1024px) {
+    .card2, .card3 {
+        max-width: 800px;
+        height: 400px;
+    }
+
+
+    .card2 h3, .card3 h3 {
+        font-size: 40px;
+    }
+    
+    .card2 p, .card3 p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .card2, .card3 {
+        max-width: 1000px;
+        height: 500px;
+    }
+
+
+    .card2 h3, .card3 h3 {
+        font-size: 45px;
+    }
+    
+    .card2 p, .card3 p {
+        font-size: 25px;
+    }
+}

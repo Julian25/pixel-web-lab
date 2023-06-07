@@ -1,0 +1,72 @@
+.btn {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 0.2em 0.5em -0.4em #676767;
+    transition: 0.25s;
+  }
+
+  
+.btn:hover,
+.btn:focus {
+  box-shadow: 0 0.6em 0.5em -0.4em #676767;
+  transform: translateY(-0.2em);
+  outline: none;
+}
+
+.btn:active {
+    transform: none;
+    box-shadow: inset 0px 0px 0px 3px  #49a37b;
+    outline: none;
+  }
+
+
+.btn__contact {
+    background-color: #E91E63;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.btn__send {
+  width: 200px;
+  background-color: #00c853;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.round__btn {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  margin: 5px;
+  padding: 0px;
+  border: none;
+  border-radius: 50%;
+  color: #15162A;
+  font-family: inherit;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  transition:
+    box-shadow 400ms cubic-bezier(.2,0,.7,1),
+}
+
+.close_btn {
+  position: absolute;
+  top: 4px;
+  margin: 0;
+  right: 16px;
+  font-weight: bolder;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #F33413;
+}

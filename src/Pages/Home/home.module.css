@@ -1,0 +1,137 @@
+.title {
+    text-align: left;
+}
+
+.hero__text span {
+    font-style: italic;
+    color: #FAC545;
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+}
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 500px;
+    background-color: #B2DFDB;
+}
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about__text h2 {
+    width: 60%;
+    margin-top: 60px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: #212121;
+}
+
+.about__text p {
+    width: 70%;
+    color: #000;
+    font-size: 18px;
+}
+
+
+.about__img img {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+
+    .about__text h2 {
+        width: 80%;
+        font-size: 60px;
+        text-align: center;
+        color: #212121;
+    }
+
+    .about__text p {
+        width: 70%;
+        color: #000;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .hero__text {
+        width: 50%;
+    }
+    .hero__text h2 {
+        width: 100%;
+        font-size: 55px;
+    }
+    
+    .about {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        min-height: 800px;
+    }
+
+    .about__text {
+        width: 40%;
+    }
+
+    .about__text h2 {
+        width: 100%;
+        font-size: 60px;
+    }
+
+    .about__text p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .about__img {
+        width: 50%;
+    }
+
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .hero__text {
+        width: 60%;
+    }
+
+    .hero__text h2 {
+        width: 100%;
+        font-size: 100px;
+    }
+    
+
+    .about__text h2 {
+        font-size: 65px;
+    }
+
+    .about__text p {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .about__img {
+        width: 30%;
+    }
+
+
+}
+

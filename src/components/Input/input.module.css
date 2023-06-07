@@ -1,0 +1,39 @@
+.inputContainer {
+    margin: 20px;
+    width: 90%;
+}
+
+.inputContainer label {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+}
+
+.inputContainer input {
+    width: 90%;
+    height: 30px;
+    margin: 5px;
+    padding: 3px 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #373867
+}
+
+.inputContainer input:focus {
+    border: 3px solid #000000;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+.error {
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #fff;
+    width: 250px;
+}
+
+.inputContainer .inputError {
+    border: 3px solid #ff0303;
+}
